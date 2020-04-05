@@ -1,0 +1,13 @@
+  -- add in scripts
+  
+   // "start": "run-p start:client start:server",
+    //"start:client": "react-scripts start",
+    //"start:server": "node server.js",
+
+    // add 
+      "proxy": "http://localhost:3001",
+
+      // add in .env
+       REACT_APP_AUTH0_AUDIENCE=http://localhost:3001
+
+    REACT_APP_API_URL=http://localhost:3001
